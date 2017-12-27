@@ -1,0 +1,22 @@
+﻿{
+
+  "manifest_version": 2,
+  "name": "PrestaKoha",
+  "version": "1.0",
+
+  "description": "Agrega un botón a la barra de navegación, que permite agregar de acuerdo a la selección elejida la fecha y hora de devolución de préstamo en la hoja de circulación de KOHA.",
+  "homepage_url": "",
+  "icons": {
+    "48": "icons/cal-48-2.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/cal-32-2.png",
+    "default_title": "PrestaKoha",
+    "default_popup": "popup/choose_presta.html"
+  }
+}
