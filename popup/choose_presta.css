@@ -19,11 +19,12 @@ html, body {
 }
 
 .clear {
- background-color: #FBFBC9;
+ /*background-color: #FBFBC9;*/
+ background-color: #E5F2F2;
 }
 
 .clear:hover {
- 
-
-background-color: #EAEAC9;
+background-color: #CFF2F2;
 }
+
+
